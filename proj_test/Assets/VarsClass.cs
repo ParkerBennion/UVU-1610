@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class flats : MonoBehaviour
+public class VarsClass : MonoBehaviour
 {
 	public float floatValue = 5.5f;
 	public int intValue = 20;
@@ -23,12 +23,12 @@ public class flats : MonoBehaviour
 		
 	}
 
-	private void OnTriggerExit(Collider other)
-	{
-		stoppingevent.Invoke();
-		OnEnable(celeron);
+	//private void OnTriggerExit(Collider other)
+	//{
+	//	stoppingevent.Invoke();
+	//	OnEnable(celeron);
 		// fiddiling with other commands based on those in lines 33-43. this gave a fatal error.
-	}
+	//}
 
 	//private void OnEnable(Collision other)
 	//{
