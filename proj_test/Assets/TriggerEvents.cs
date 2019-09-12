@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class TriggerEvents : MonoBehaviour
+public class TriggerEvents : MonoBehaviour//this is a piece of code already written that allows us to attach code to obj.
 //monobehaviours must attach to a game obj.
 {
 	public UnityEvent triggerEvent;
