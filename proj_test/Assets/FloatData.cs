@@ -9,6 +9,8 @@ public class FloatData : ScriptableObject
     public void UpdateValue(float amount)
     {
         value += amount;
+       // value <= 100; how does math work in c#
+        
         //value = value + amount (this is the same thing)
     }
 }
