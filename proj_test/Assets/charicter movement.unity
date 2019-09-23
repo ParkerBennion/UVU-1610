@@ -396,6 +396,7 @@ GameObject:
   - component: {fileID: 1999205672}
   - component: {fileID: 1999205671}
   - component: {fileID: 1999205670}
+  - component: {fileID: 1999205673}
   - component: {fileID: 1999205669}
   m_Layer: 0
   m_Name: rock
@@ -404,18 +405,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1999205669
-BoxCollider:
+--- !u!114 &1999205669
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1999205668}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01d4aafd86801f84bae888987684cba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 100
+  position: {x: 0, y: 0, z: 0}
 --- !u!23 &1999205670
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -471,3 +473,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!143 &1999205673
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1999205668}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 0.99999994
+  m_Radius: 0.50000006
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}

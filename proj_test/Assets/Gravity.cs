@@ -18,7 +18,7 @@ public class Gravity : MonoBehaviour
 	{
 		position.x = moveSpeed* Input.GetAxis("Horizontal");
 		position.y -= grav; // put negative before "=" if your adding jumping.
-		
+		 
 		if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
 		{
 			position.y = jumpSpeed;
