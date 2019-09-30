@@ -9,6 +9,7 @@
         <e p="ApplyForce.cs" t="Include" />
         <e p="CatClass.cs" t="Include" />
         <e p="ClickEvent.cs" t="Include" />
+        <e p="Combine.cs" t="Include" />
         <e p="controls.cs" t="Include" />
         <e p="DogClass.cs" t="Include" />
         <e p="FloatData.cs" t="Include" />
