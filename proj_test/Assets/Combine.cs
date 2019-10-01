@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Combine : MonoBehaviour {
-	public ParticleSystem sparks;
+public class Combine : MonoBehaviour
+{
+
 	[RequireComponent(typeof(Rigidbody))]
 	[RequireComponent(typeof(Collider))]
 	// Use this for initialization
@@ -11,7 +12,8 @@ public class Combine : MonoBehaviour {
 	{
 		public Vector3 forces;
 		private Rigidbody rb;
-		void Start ()
+
+		void Start()
 		{
 			rb = GetComponent<Rigidbody>();
 		}
@@ -20,8 +22,11 @@ public class Combine : MonoBehaviour {
 		{
 			rb.AddForce(forces);
 		}
-	public void OnMouseDown()
-	{
-		sparks.Emit(10);
+
+		public ParticleSystem sparks;
+		public void OnMouseDown()
+		{
+			sparks.Emit(10);
+		}
 	}
 }
