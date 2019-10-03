@@ -15,7 +15,7 @@ public class UiTextCont : MonoBehaviour
 	}
 
 	// Use this for initialization
-	void Start ()
+	void Awake ()
 	{
 		
 		textLabel = GetComponent<Text>();
