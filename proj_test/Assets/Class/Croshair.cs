@@ -2,7 +2,7 @@
 
 [RequireComponent(typeof(CharacterController))]
 //this code demands a character controller and will make one when this script is applied
-public class Rotating : MonoBehaviour
+public class Croshair : MonoBehaviour
 {
 	private CharacterController controller;
 	public float speed = 100f;
