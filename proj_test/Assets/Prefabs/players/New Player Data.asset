@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a4c11c61ae85741b04b33a674d3716, type: 3}
   m_Name: New Player Data
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
-  color: {r: 0, g: 0, b: 0, a: 0}
-  prefab: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 36c62706701b52245b5d18ea35baaf71, type: 3}
+  color: {r: 0.9716981, g: 0.01375042, b: 0.01375042, a: 0.99215686}
+  prefab: {fileID: 1395219441759584, guid: a6bccb8f0fd77d94f9a07d0d3fd49907, type: 2}
