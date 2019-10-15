@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\parke\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\parke\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_proj_test.-1962365833.00" t="ExcludeRecursive" />
-    <e p="C:\Users\parke\OneDrive\Desktop\git kraken\UVU-1610\proj_test" t="IncludeRecursive">
+    <e p="C:\Users\parke\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_proj_test.981458881.00" t="ExcludeRecursive" />
+    <e p="C:\Users\parke\Desktop\git kraken\UVU-1610\proj_test" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Class" t="Include">
           <e p="ApplyForce.cs" t="Include" />
           <e p="CatClass.cs" t="Include" />
           <e p="ClickEvent.cs" t="Include" />
-          <e p="Combine.cs" t="Include" />
           <e p="controls.cs" t="Include" />
           <e p="Data scripts" t="Include">
             <e p="Clothing" t="Include">
@@ -37,6 +36,7 @@
         </e>
         <e p="Personal" t="Include">
           <e p="Bullets.cs" t="Include" />
+          <e p="Combine.cs" t="Include" />
           <e p="Gun.cs" t="Include" />
         </e>
         <e p="Romrells Code" t="Include">

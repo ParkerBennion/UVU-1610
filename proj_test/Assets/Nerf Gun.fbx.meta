@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: d07d92936e68cf344a76d07cfc55a0f5
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BODY
+    100002: DART
+    100004: DART1
+    100006: DART2
+    100008: DART3
+    100010: GRIP
+    100012: KNOB
+    100014: LEG_LEFT
+    100016: LEG_RIGHT
+    100018: LEG_RIGHT 1
+    100020: MAG
+    100022: MAGAZENE
+    100024: MUZZLE
+    100026: //RootNode
+    100028: NERF_BLASTER
+    100030: STOCK
+    100032: TRIGGER
+    400000: BODY
+    400002: DART
+    400004: DART1
+    400006: DART2
+    400008: DART3
+    400010: GRIP
+    400012: KNOB
+    400014: LEG_LEFT
+    400016: LEG_RIGHT
+    400018: LEG_RIGHT 1
+    400020: MAG
+    400022: MAGAZENE
+    400024: MUZZLE
+    400026: //RootNode
+    400028: NERF_BLASTER
+    400030: STOCK
+    400032: TRIGGER
+    2100000: red_plastic
+    2100002: black_plastic
+    2100004: grey_plastic
+    2100006: orange_plastic1
+    2300000: BODY
+    2300002: DART
+    2300004: DART1
+    2300006: DART2
+    2300008: DART3
+    2300010: GRIP
+    2300012: KNOB
+    2300014: LEG_LEFT
+    2300016: LEG_RIGHT 1
+    2300018: MAG
+    2300020: MUZZLE
+    2300022: STOCK
+    2300024: TRIGGER
+    3300000: BODY
+    3300002: DART
+    3300004: DART1
+    3300006: DART2
+    3300008: DART3
+    3300010: GRIP
+    3300012: KNOB
+    3300014: LEG_LEFT
+    3300016: LEG_RIGHT 1
+    3300018: MAG
+    3300020: MUZZLE
+    3300022: STOCK
+    3300024: TRIGGER
+    4300000: BODY
+    4300002: STOCK
+    4300004: TRIGGER
+    4300006: GRIP
+    4300008: MUZZLE
+    4300010: DART
+    4300012: KNOB
+    4300014: LEG_RIGHT
+    4300016: MAG
+    4300018: DART1
+    4300020: DART2
+    4300022: DART3
+    4300024: LEG_LEFT
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
