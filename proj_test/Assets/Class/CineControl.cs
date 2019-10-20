@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using Cinemachine;
 [RequireComponent(typeof(CinemachineVirtualCamera))] // you need to enable cinemachine for this to work
 
@@ -18,4 +18,4 @@ public class CineControl : MonoBehaviour
 		virtualCamera.Follow = object.transform;
 	}
 	
-}
+}*/

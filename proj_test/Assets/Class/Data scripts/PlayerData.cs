@@ -12,12 +12,11 @@ public class PlayerData : GameArtData
     public ClothData pants;
     public List<WeaponData> weapons;
 
-    public void
+    public void InstancePlayer()
     {
         var newPlayer = Instantiate(prefab);
         var playerSprite = newPlayer.GetComponentInChildren<SpriteRenderer>();
         playerSprite.sprite = sprite;
-        playerSprite.color = spriteColor;
         InstanceAction(newPlayer); // 1
     }
 }
