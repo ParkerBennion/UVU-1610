@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu]
+
 public class Firepower : MonoBehaviour
 {
 	public MasterBlank syringe;
-	void Awake ()
+	void Start ()
 	{
-	Debug.Log(MasterBlank.objName);
+
 	}
 }

@@ -22,8 +22,6 @@ GameObject:
   - component: {fileID: 33219417665632154}
   - component: {fileID: 23587338924374702}
   - component: {fileID: 135781990887470914}
-  - component: {fileID: 114089954442849010}
-  - component: {fileID: 143331966214047578}
   m_Layer: 0
   m_Name: Balistic
   m_TagString: Untagged
@@ -86,35 +84,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1779527222688644}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114089954442849010
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1779527222688644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 710ad09d160525349924ab7cb17267ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocity: {x: 10, y: 0, z: 0}
-  controller: {fileID: 0}
-  penitrate:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1779527222688644}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!135 &135781990887470914
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -126,21 +95,4 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!143 &143331966214047578
-CharacterController:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1779527222688644}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 1
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
