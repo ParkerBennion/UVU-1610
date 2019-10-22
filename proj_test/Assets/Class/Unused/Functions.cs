@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Functions : MonoBehaviour
+/*public class Functions : MonoBehaviour
 
 {
 	public string playerName;
@@ -35,8 +35,8 @@ private string WelcomePlayer()
 	}
 	private int AddNumbers(int a, int b)
 	{
-		print(a+b);
+		print(myNumber);
 		return a + b;
 		//make a player data scriptable object and populate it with variables
 	}
-}
+}*/

@@ -8,12 +8,15 @@
       <e p="Assets" t="Include">
         <e p="Class" t="Include">
           <e p="ApplyForce.cs" t="Include" />
-          <e p="CatClass.cs" t="Include" />
           <e p="CineControl.cs" t="Include" />
           <e p="ClickEvent.cs" t="Include" />
           <e p="controls.cs" t="Include" />
-          <e p="Croshair.cs" t="Include" />
           <e p="Data scripts" t="Include">
+            <e p="Brakies" t="Include">
+              <e p="Firepower.cs" t="Include" />
+              <e p="MasterBlank.cs" t="Include" />
+              <e p="Vitamins.cs" t="Include" />
+            </e>
             <e p="Clothing" t="Include">
               <e p="ClothData.cs" t="Include" />
             </e>
@@ -23,32 +26,38 @@
             <e p="PlayerData.cs" t="Include" />
             <e p="WeaponData.cs" t="Include" />
           </e>
-          <e p="DogClass.cs" t="Include" />
-          <e p="Functions.cs" t="Include" />
-          <e p="GetFruit.cs" t="Include" />
-          <e p="Gravity.cs" t="Include" />
-          <e p="IfStatements.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="ParticleControl.cs" t="Include" />
-          <e p="PlayerData.cs" t="Include" />
-          <e p="Rock.cs" t="Include" />
+          <e p="Translate Scripts" t="Include">
+            <e p="Croshair.cs" t="Include" />
+          </e>
           <e p="TriggerEvents.cs" t="Include" />
           <e p="UiImmageCont.cs" t="Include" />
           <e p="UiTextCont.cs" t="Include" />
+          <e p="Unused" t="Include">
+            <e p="CatClass.cs" t="Include" />
+            <e p="DogClass.cs" t="Include" />
+            <e p="Functions.cs" t="Include" />
+            <e p="GetFruit.cs" t="Include" />
+            <e p="IfStatements.cs" t="Include" />
+          </e>
           <e p="VarsClass.cs" t="Include" />
         </e>
-        <e p="Personal" t="Include">
-          <e p="Bullets.cs" t="Include" />
-          <e p="Combine.cs" t="Include" />
-          <e p="Gun.cs" t="Include" />
-        </e>
-        <e p="Romrells Code" t="Include">
-          <e p="RMovements.cs" t="Include" />
-        </e>
-        <e p="Tutorials" t="Include">
-          <e p="Do.cs" t="Include" />
-          <e p="DoWhile.cs" t="Include" />
-          <e p="For.cs" t="Include" />
+        <e p="Other" t="Include">
+          <e p="Personal" t="Include">
+            <e p="Bullets.cs" t="Include" />
+            <e p="Combine.cs" t="Include" />
+            <e p="Gun.cs" t="Include" />
+            <e p="Rock.cs" t="Include" />
+          </e>
+          <e p="Romrells Code" t="Include">
+            <e p="RMovements.cs" t="Include" />
+          </e>
+          <e p="Tutorials" t="Include">
+            <e p="Do.cs" t="Include" />
+            <e p="DoWhile.cs" t="Include" />
+            <e p="For.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
