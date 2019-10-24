@@ -7,7 +7,10 @@ public class CollectionData : ScriptableObject
 
     public void AddData(GameArtData obj)
     {
-        collectionList.Add(obj);
+        if (!collectionList.Contains(obj))
+        {
+            collectionList.Add(obj);
+        }
     }
 
     //assets to project, game obj into scene
