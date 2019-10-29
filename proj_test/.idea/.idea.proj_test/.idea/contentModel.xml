@@ -27,6 +27,9 @@
             <e p="PlayerData.cs" t="Include" />
             <e p="WeaponData.cs" t="Include" />
           </e>
+          <e p="DeBugger.cs" t="Include" />
+          <e p="DeBugHandler.cs" t="Include" />
+          <e p="EnumSwitch.cs" t="Include" />
           <e p="Lists.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="ParticleControl.cs" t="Include" />
