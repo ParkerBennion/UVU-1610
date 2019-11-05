@@ -11,7 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47871c92553304f45b46bcf086c65d60, type: 3}
   m_Name: New Lists
   m_EditorClassIdentifier: 
-  stringList: []
+  stringList:
+  - 
+  - 
   intList: 
   floatList: []
   gameObjectList: []
