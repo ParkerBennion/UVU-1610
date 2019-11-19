@@ -19,4 +19,5 @@ public class Croshair : MonoBehaviour
 		controller.Move(position*Time.deltaTime);
 		
 	}
+	
 }
