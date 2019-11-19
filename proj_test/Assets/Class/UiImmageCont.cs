@@ -16,8 +16,4 @@ public class UiImmageCont : MonoBehaviour
 	{
 		img.fillAmount = data.value;
 	}
-
-	void Update () {
-		
-	}
 }
